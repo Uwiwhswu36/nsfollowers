@@ -11,11 +11,11 @@ class Ns_Followers:
         self.requests=requests
         self.__AES_NoPadding = AES_CBC_NoPadding()
 
-        self.__userid='...' #Enter UserID Here
-        self.__username='...' #Enter UserName Here
-        self._session='...' #Enter SessionID Here
+        self.__userid='63272780840' #Enter UserID Here
+        self.__username='educatar4' #Enter UserName Here
+        self._session='63272780840:9G5e3TMSmzDaxo:13:AYcTEGBWUjnneUFRNrR45DGM2otHLxKWKzaXrQCuAA' #Enter SessionID Here
 
-        self.__Pk=self.__userid.encode()+b'*'+str(random.randint(111,999)).encode()
+        self.__Pk=self..encode()+b'*'+str(random.randint(111,999)).encode()
         self.__Ip=os.urandom(8).hex().encode()+b'*'+str(random.randint(111,999)).encode()
         self.__Device=b'model:'+str(random.randint(111111,999999)).encode()+b'MI|id:QP1A.190711.020|manufacture:Xiaomi|brand:POCO|type:user|user:builder|base:1|sdk:REL|board: angelicain|host:c5-miui-ota-bd238.bj|release:10|product:angelicain_in|fingerprint:POCO/angelicain_in/angelicain:10/QP1A.190711.020/V12.0.3.0.QCRINRF:user/release-keys|hardware:mt6765|device:angelicain*'+str(random.randint(111,999)).encode()
 
